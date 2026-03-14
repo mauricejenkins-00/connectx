@@ -1,0 +1,21 @@
+{
+  "name": "connectx",
+  "version": "1.0.0",
+  "description": "Sell emojis in exchange for donations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["emojis", "donations", "connectx"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.9.8",
+    "twilio": "^5.0.4",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
