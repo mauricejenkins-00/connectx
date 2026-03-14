@@ -1,15 +1,8 @@
 {
   "name": "connectx",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "description": "Sell emojis in exchange for donations",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
   "keywords": ["emojis", "donations", "connectx"],
   "license": "MIT",
   "dependencies": {
